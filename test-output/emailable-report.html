@@ -1,0 +1,338 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">ChromeTest</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">4</td><td class="num">15,858</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">SafariTest</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">4</td><td class="num">17,884</td><td></td><td></td></tr>
+<tr><td><a href="#t2">FirefoxTest</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">31,691</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">1</th><th class="num">0</th><th class="num">0</th><th class="num attn">11</th><th class="num">65,433</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">ChromeTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="4">finzy.TestClass</td><td><a href="#m0">search</a></td><td rowspan="4">1655737132197</td><td rowspan="4">1630</td></tr><tr class="failedeven"><td><a href="#m1">search</a></td></tr><tr class="failedeven"><td><a href="#m2">search</a></td></tr><tr class="failedeven"><td><a href="#m3">search</a></td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">SafariTest &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">finzy.TestClass</td><td><a href="#m4">quitBrowser</a></td><td rowspan="1">1655737140103</td><td rowspan="1">296</td></tr><tr><th colspan="4">SafariTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="4">finzy.TestClass</td><td><a href="#m5">search</a></td><td rowspan="4">1655737132203</td><td rowspan="4">5248</td></tr><tr class="failedeven"><td><a href="#m6">search</a></td></tr><tr class="failedeven"><td><a href="#m7">search</a></td></tr><tr class="failedeven"><td><a href="#m8">search</a></td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">FirefoxTest &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">finzy.TestClass</td><td><a href="#m9">quitBrowser</a></td><td rowspan="1">1655737153492</td><td rowspan="1">714</td></tr><tr><th colspan="4">FirefoxTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="3">finzy.TestClass</td><td><a href="#m10">search</a></td><td rowspan="3">1655737138619</td><td rowspan="3">1241</td></tr><tr class="failedeven"><td><a href="#m11">search</a></td></tr><tr class="failedeven"><td><a href="#m12">search</a></td></tr><tr><th colspan="4">FirefoxTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">finzy.TestClass</td><td><a href="#m13">search</a></td><td rowspan="1">1655737136044</td><td rowspan="1">2574</td></tr></tbody>
+</table>
+<h2>ChromeTest</h2><h3 id="m0">finzy.TestClass#search</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>finzy</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;input class=&quot;gNO89b&quot; value=&quot;Google Search&quot; aria-label=&quot;Google Search&quot; name=&quot;btnK&quot; role=&quot;button&quot; tabindex=&quot;0&quot; type=&quot;submit&quot; data-ved=&quot;0ahUKEwjs6-i7pbz4AhVjR2wGHbgPBPYQ4dUDCA0&quot;&gt; is not clickable at point (642, 271). Other element would receive the click: &lt;div class=&quot;pcTkSc&quot; role=&quot;option&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=102.0.5005.115)
+Build info: version: &apos;4.2.2&apos;, revision: &apos;683ccb65d6&apos;
+System info: host: &apos;mm-in-Vigneshwar.local&apos;, ip: &apos;2406:7400:61:a6e2:7c5b:da79:efd9:bc0e%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.4&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b5738e44972faf7a61a132153e3204a4, clickElement {id=74eb9f44-0f7f-462c-b567-7b4a766ef460}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /var/folders/s3/204n8z8567z...}, goog:chromeOptions: {debuggerAddress: localhost:49817}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49817/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (b5738e44972faf7a61a132153e3204a4)] -&gt; xpath: //div[@class=&apos;FPdoLc lJ9FBc&apos;]/center/input[@name=&apos;btnK&apos;]]
+Session ID: b5738e44972faf7a61a132153e3204a4
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:588)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
+	at finzy.BaseClass.searchText(BaseClass.java:44)
+	at finzy.TestClass.search(TestClass.java:54)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">finzy.TestClass#search</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>peer to peer lending</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;input class=&quot;gNO89b&quot; value=&quot;Google Search&quot; aria-label=&quot;Google Search&quot; name=&quot;btnK&quot; role=&quot;button&quot; tabindex=&quot;0&quot; type=&quot;submit&quot; data-ved=&quot;0ahUKEwjs6-i7pbz4AhVjR2wGHbgPBPYQ4dUDCA0&quot;&gt; is not clickable at point (642, 271). Other element would receive the click: &lt;b&gt;...&lt;/b&gt;
+  (Session info: chrome=102.0.5005.115)
+Build info: version: &apos;4.2.2&apos;, revision: &apos;683ccb65d6&apos;
+System info: host: &apos;mm-in-Vigneshwar.local&apos;, ip: &apos;2406:7400:61:a6e2:7c5b:da79:efd9:bc0e%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.4&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b5738e44972faf7a61a132153e3204a4, clickElement {id=74eb9f44-0f7f-462c-b567-7b4a766ef460}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /var/folders/s3/204n8z8567z...}, goog:chromeOptions: {debuggerAddress: localhost:49817}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49817/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (b5738e44972faf7a61a132153e3204a4)] -&gt; xpath: //div[@class=&apos;FPdoLc lJ9FBc&apos;]/center/input[@name=&apos;btnK&apos;]]
+Session ID: b5738e44972faf7a61a132153e3204a4
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:588)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
+	at finzy.BaseClass.searchText(BaseClass.java:44)
+	at finzy.TestClass.search(TestClass.java:54)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">finzy.TestClass#search</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>low-risk investments</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;input class=&quot;gNO89b&quot; value=&quot;Google Search&quot; aria-label=&quot;Google Search&quot; name=&quot;btnK&quot; role=&quot;button&quot; tabindex=&quot;0&quot; type=&quot;submit&quot; data-ved=&quot;0ahUKEwjs6-i7pbz4AhVjR2wGHbgPBPYQ4dUDCA0&quot;&gt; is not clickable at point (642, 271). Other element would receive the click: &lt;b&gt;...&lt;/b&gt;
+  (Session info: chrome=102.0.5005.115)
+Build info: version: &apos;4.2.2&apos;, revision: &apos;683ccb65d6&apos;
+System info: host: &apos;mm-in-Vigneshwar.local&apos;, ip: &apos;2406:7400:61:a6e2:7c5b:da79:efd9:bc0e%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.4&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b5738e44972faf7a61a132153e3204a4, clickElement {id=74eb9f44-0f7f-462c-b567-7b4a766ef460}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /var/folders/s3/204n8z8567z...}, goog:chromeOptions: {debuggerAddress: localhost:49817}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49817/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (b5738e44972faf7a61a132153e3204a4)] -&gt; xpath: //div[@class=&apos;FPdoLc lJ9FBc&apos;]/center/input[@name=&apos;btnK&apos;]]
+Session ID: b5738e44972faf7a61a132153e3204a4
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:588)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
+	at finzy.BaseClass.searchText(BaseClass.java:44)
+	at finzy.TestClass.search(TestClass.java:54)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">finzy.TestClass#search</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>lending india</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;input class=&quot;gNO89b&quot; value=&quot;Google Search&quot; aria-label=&quot;Google Search&quot; name=&quot;btnK&quot; role=&quot;button&quot; tabindex=&quot;0&quot; type=&quot;submit&quot; data-ved=&quot;0ahUKEwjs6-i7pbz4AhVjR2wGHbgPBPYQ4dUDCA0&quot;&gt; is not clickable at point (642, 271). Other element would receive the click: &lt;span&gt;...&lt;/span&gt;
+  (Session info: chrome=102.0.5005.115)
+Build info: version: &apos;4.2.2&apos;, revision: &apos;683ccb65d6&apos;
+System info: host: &apos;mm-in-Vigneshwar.local&apos;, ip: &apos;2406:7400:61:a6e2:7c5b:da79:efd9:bc0e%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.4&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b5738e44972faf7a61a132153e3204a4, clickElement {id=74eb9f44-0f7f-462c-b567-7b4a766ef460}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /var/folders/s3/204n8z8567z...}, goog:chromeOptions: {debuggerAddress: localhost:49817}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49817/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (b5738e44972faf7a61a132153e3204a4)] -&gt; xpath: //div[@class=&apos;FPdoLc lJ9FBc&apos;]/center/input[@name=&apos;btnK&apos;]]
+Session ID: b5738e44972faf7a61a132153e3204a4
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:588)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
+	at finzy.BaseClass.searchText(BaseClass.java:44)
+	at finzy.TestClass.search(TestClass.java:54)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>SafariTest</h2><h3 id="m4">finzy.TestClass#quitBrowser</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchSessionException: Build info: version: &apos;4.2.2&apos;, revision: &apos;683ccb65d6&apos;
+System info: host: &apos;mm-in-Vigneshwar.local&apos;, ip: &apos;2406:7400:61:a6e2:7c5b:da79:efd9:bc0e%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.4&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.safari.SafariDriver
+Command: [2827BE4E-5F7F-4653-B6B6-7903B3AD9FB3, quit {}]
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 15.5, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 21F79, safari:platformVersion: 12.4, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+Session ID: 2827BE4E-5F7F-4653-B6B6-7903B3AD9FB3
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:105)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 5 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">finzy.TestClass#search</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>finzy</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: Build info: version: &apos;4.2.2&apos;, revision: &apos;683ccb65d6&apos;
+System info: host: &apos;mm-in-Vigneshwar.local&apos;, ip: &apos;2406:7400:61:a6e2:7c5b:da79:efd9:bc0e%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.4&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.safari.SafariDriver
+Command: [2827BE4E-5F7F-4653-B6B6-7903B3AD9FB3, clickElement {id=node-4D049248-DD5F-4814-82C5-D4C5B2B74224}]
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 15.5, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 21F79, safari:platformVersion: 12.4, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+Element: [[SafariDriver: Safari on MAC (2827BE4E-5F7F-4653-B6B6-7903B3AD9FB3)] -&gt; xpath: //div[@class=&apos;FPdoLc lJ9FBc&apos;]/center/input[@name=&apos;btnK&apos;]]
+Session ID: 2827BE4E-5F7F-4653-B6B6-7903B3AD9FB3
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:588)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
+	at finzy.BaseClass.searchText(BaseClass.java:44)
+	at finzy.TestClass.search(TestClass.java:54)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">finzy.TestClass#search</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>lending india</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: Build info: version: &apos;4.2.2&apos;, revision: &apos;683ccb65d6&apos;
+System info: host: &apos;mm-in-Vigneshwar.local&apos;, ip: &apos;2406:7400:61:a6e2:7c5b:da79:efd9:bc0e%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.4&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.safari.SafariDriver
+Command: [2827BE4E-5F7F-4653-B6B6-7903B3AD9FB3, clickElement {id=node-4D049248-DD5F-4814-82C5-D4C5B2B74224}]
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 15.5, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 21F79, safari:platformVersion: 12.4, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+Element: [[SafariDriver: Safari on MAC (2827BE4E-5F7F-4653-B6B6-7903B3AD9FB3)] -&gt; xpath: //div[@class=&apos;FPdoLc lJ9FBc&apos;]/center/input[@name=&apos;btnK&apos;]]
+Session ID: 2827BE4E-5F7F-4653-B6B6-7903B3AD9FB3
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:588)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
+	at finzy.BaseClass.searchText(BaseClass.java:44)
+	at finzy.TestClass.search(TestClass.java:54)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">finzy.TestClass#search</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>peer to peer lending</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: Build info: version: &apos;4.2.2&apos;, revision: &apos;683ccb65d6&apos;
+System info: host: &apos;mm-in-Vigneshwar.local&apos;, ip: &apos;2406:7400:61:a6e2:7c5b:da79:efd9:bc0e%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.4&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.safari.SafariDriver
+Command: [2827BE4E-5F7F-4653-B6B6-7903B3AD9FB3, clickElement {id=node-4D049248-DD5F-4814-82C5-D4C5B2B74224}]
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 15.5, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 21F79, safari:platformVersion: 12.4, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+Element: [[SafariDriver: Safari on MAC (2827BE4E-5F7F-4653-B6B6-7903B3AD9FB3)] -&gt; xpath: //div[@class=&apos;FPdoLc lJ9FBc&apos;]/center/input[@name=&apos;btnK&apos;]]
+Session ID: 2827BE4E-5F7F-4653-B6B6-7903B3AD9FB3
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:588)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
+	at finzy.BaseClass.searchText(BaseClass.java:44)
+	at finzy.TestClass.search(TestClass.java:54)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">finzy.TestClass#search</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>low-risk investments</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: Build info: version: &apos;4.2.2&apos;, revision: &apos;683ccb65d6&apos;
+System info: host: &apos;mm-in-Vigneshwar.local&apos;, ip: &apos;2406:7400:61:a6e2:7c5b:da79:efd9:bc0e%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.4&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.safari.SafariDriver
+Command: [2827BE4E-5F7F-4653-B6B6-7903B3AD9FB3, clickElement {id=node-4D049248-DD5F-4814-82C5-D4C5B2B74224}]
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 15.5, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 21F79, safari:platformVersion: 12.4, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+Element: [[SafariDriver: Safari on MAC (2827BE4E-5F7F-4653-B6B6-7903B3AD9FB3)] -&gt; xpath: //div[@class=&apos;FPdoLc lJ9FBc&apos;]/center/input[@name=&apos;btnK&apos;]]
+Session ID: 2827BE4E-5F7F-4653-B6B6-7903B3AD9FB3
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:588)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
+	at finzy.BaseClass.searchText(BaseClass.java:44)
+	at finzy.TestClass.search(TestClass.java:54)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>FirefoxTest</h2><h3 id="m9">finzy.TestClass#quitBrowser</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;4.2.2&apos;, revision: &apos;683ccb65d6&apos;
+System info: host: &apos;mm-in-Vigneshwar.local&apos;, ip: &apos;2406:7400:61:a6e2:7c5b:da79:efd9:bc0e%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.4&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [4e49f03e-6329-4d76-a8ce-34f7b7be8889, quit {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0.1, moz:accessibilityChecks: false, moz:buildID: 20220608170832, moz:debuggerAddress: localhost:56425, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 60847, moz:profile: /var/folders/s3/204n8z8567z..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: MAC, platformVersion: 21.5.0, proxy: Proxy(), se:cdp: ws://localhost:56425/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4e49f03e-6329-4d76-a8ce-34f7b7be8889
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:105)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 5 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">finzy.TestClass#search</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>lending india</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: Element &lt;span&gt; is not clickable at point (646,721) because another element &lt;html&gt; obscures it
+Build info: version: &apos;4.2.2&apos;, revision: &apos;683ccb65d6&apos;
+System info: host: &apos;mm-in-Vigneshwar.local&apos;, ip: &apos;2406:7400:61:a6e2:7c5b:da79:efd9:bc0e%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.4&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [4e49f03e-6329-4d76-a8ce-34f7b7be8889, clickElement {id=6847b39c-a5d2-417e-8870-6d1ee2cbf443}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0.1, moz:accessibilityChecks: false, moz:buildID: 20220608170832, moz:debuggerAddress: localhost:56425, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 60847, moz:profile: /var/folders/s3/204n8z8567z..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: MAC, platformVersion: 21.5.0, proxy: Proxy(), se:cdp: ws://localhost:56425/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on MAC (4e49f03e-6329-4d76-a8ce-34f7b7be8889)] -&gt; xpath: //a[@id=&quot;pnnext&quot;]/span[text()=&apos;Next&apos;]]
+Session ID: 4e49f03e-6329-4d76-a8ce-34f7b7be8889
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:588)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
+	at finzy.BaseClass.goToNextPage(BaseClass.java:54)
+	at finzy.BaseClass.findFinzyInSearchResults(BaseClass.java:68)
+	at finzy.TestClass.search(TestClass.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">finzy.TestClass#search</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>peer to peer lending</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Finzy website is not found in first 10 pages of search result expected object to not be null
+	at finzy.TestClass.search(TestClass.java:56)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 20 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">finzy.TestClass#search</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>low-risk investments</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: Element &lt;span&gt; is not clickable at point (646,721) because another element &lt;html&gt; obscures it
+Build info: version: &apos;4.2.2&apos;, revision: &apos;683ccb65d6&apos;
+System info: host: &apos;mm-in-Vigneshwar.local&apos;, ip: &apos;2406:7400:61:a6e2:7c5b:da79:efd9:bc0e%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.4&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [4e49f03e-6329-4d76-a8ce-34f7b7be8889, clickElement {id=bb434ea4-fc35-42bd-bd4f-47f6fba2ffa9}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0.1, moz:accessibilityChecks: false, moz:buildID: 20220608170832, moz:debuggerAddress: localhost:56425, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 60847, moz:profile: /var/folders/s3/204n8z8567z..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: MAC, platformVersion: 21.5.0, proxy: Proxy(), se:cdp: ws://localhost:56425/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on MAC (4e49f03e-6329-4d76-a8ce-34f7b7be8889)] -&gt; xpath: //a[@id=&quot;pnnext&quot;]/span[text()=&apos;Next&apos;]]
+Session ID: 4e49f03e-6329-4d76-a8ce-34f7b7be8889
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:588)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
+	at finzy.BaseClass.goToNextPage(BaseClass.java:54)
+	at finzy.BaseClass.findFinzyInSearchResults(BaseClass.java:68)
+	at finzy.TestClass.search(TestClass.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 26 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">finzy.TestClass#search</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>finzy</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

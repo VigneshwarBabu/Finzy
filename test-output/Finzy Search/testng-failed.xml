@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Finzy Search]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="finzy.TestClass">
+        <methods>
+          <include name="search"/>
+          <include name="openBrowser"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- finzy.TestClass -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Finzy Search] -->
